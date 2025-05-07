@@ -1,0 +1,550 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+      .nav-link-custom {
+        color: black;
+        text-decoration: none;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        
+      }
+      *{
+        font-family: Inter;
+      }
+      .btn-login {
+        padding-top: 14px;
+        padding-right: 21.84px;
+        padding-bottom: 12px;
+        padding-left: 22px;
+        border-width: 2px;
+        border-radius: 12px;
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+
+        border: 1px solid black;
+        background-color: white;
+        box-shadow: 3px 3px 0px 0px rgba(46, 47, 53, 1)
+      }
+      .btn-create-account {
+        padding-top: 14px;
+        padding-right: 25.86px;
+        padding-bottom: 12px;
+        padding-left: 25px;
+        border-width: 2px;
+        border-radius: 12px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+
+        background-color: #ff6a00;
+        color: white;
+        box-shadow: 3px 3px 0px 0px rgba(46, 47, 53, 1);
+      }
+      .navbar-brand img {
+        height: 30px;
+      }
+      .landing-section{
+        background-color: #E0F8F2;
+        padding-top:60px;
+      }
+      .landing-p{
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 96px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+      }
+      .text-landing{
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 34px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+
+      }
+      .text-fav{
+        font-family: Covered By Your Grace;
+        font-weight: 0;
+        font-size: 72px;
+        color: #009387;
+        line-height: 96px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+      }
+      .landing-image img {
+        max-width: 100%;
+      }
+      .btn-tryit{
+        width: 261.046875;
+        height: 64;
+        padding-top: 22px;
+        padding-right: 66.05px;
+        padding-bottom: 22px;
+        padding-left: 65px;
+        border-width: 2px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 0px 0px rgba(46, 47, 53, 1);        
+        background-color: #ff6a00;
+        color: white;
+      }
+      .rating-clr{
+        color: #FDC639;
+      }
+      .trusted-section{
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+      .text-t{
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 63px;
+        line-height: 76px;
+        letter-spacing: -2px;
+        text-align: center;
+        vertical-align: middle;
+
+      }
+      @media (max-width:600px) {
+        .text-t{
+          font-size: 40px;
+        }
+        .landing-p{
+          font-size: 40px;
+        }
+      }
+      .section-2a{
+        background-color: #F3FAFA;
+        padding-bottom: 100px;
+        padding-right: 208px;
+        padding-left: 208px;
+      }
+      .text-section2a{
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 63px;
+        line-height: 75px;
+        letter-spacing: -2px;
+        text-align: center;
+        vertical-align: middle;
+
+      }
+      @media (max-width:800px) {
+        .section-2a{
+          padding: 10%;
+        }
+        .section-3{
+          padding-left: 5%;
+          padding-right: 5%;
+          padding-top: 5%;
+          padding-bottom: 5%;
+        }
+      }
+      .section-3{
+        background-color: #FDF3EA;
+        padding-right: 75px;
+        padding-left: 75px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+      }
+
+      .text-section3{
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 70px;
+        letter-spacing: -4px;
+        vertical-align: middle;
+        padding-top:100px;
+      }
+      .text-s3{
+        font-family: Inter;
+        font-weight: 500;
+        font-style: italic;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+
+      }
+      .border-div{
+        border: solid;
+        border-color: #D1C7BE;
+        padding: 30px;
+        border-radius: 15px;
+        margin-top: 30px;
+      }
+      .desig-s3{
+        color: #D1C7BE;
+        margin: 0;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 0%;
+        vertical-align: middle;
+
+      }
+      .text-fav2{
+        font-family: Covered By Your Grace;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 100px;
+        letter-spacing: -4px;
+        text-align: center;
+        vertical-align: middle;
+        color:#009387;
+      }
+      .gr-1{
+        background-color: #FDF3EA;
+      }
+      .gr-2{
+        background-color: #E0F8F2;
+      }
+      .gr-3{
+        background-color: #EEECFF;
+      }
+      .gr-4{
+        background-color: #D9F2F7;
+      }
+      .gr-5{
+        background-color: #FAEDED;
+      }
+      .gr-6{
+        background-color: #F1F1F1;
+      }
+      .gr-1, .gr-2, .gr-3, .gr-4, .gr-5, .gr-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .section-4{
+        padding-bottom: 100px;
+        padding-right: 75px;
+        padding-left: 75px;
+      }
+      @media (max-width:800px) {
+        .section-4{
+          padding-left:10% ;
+          padding-right:10%;
+        }
+      }      
+      .text1-section4{
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+
+      }
+      .text2-section4{
+        font-family: Inter;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
+        vertical-align: middle;
+
+      }
+      .section-5{
+        background-color: #E3F8F8;
+        padding: 100px 0;
+      }
+      .text-section5{
+        font-family: Inter;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 76px;
+        letter-spacing: -2px;
+        text-align: center;
+        vertical-align: middle;
+
+      }
+      
+
+    .step-box {
+      padding: 2rem;
+      margin: 3rem auto;
+    }
+
+    .step {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      color: #a5a5a5;
+      font-weight: bold;
+    }
+
+    .step-number {
+      width: 40px;
+      font-style: italic;
+      color: #a5a5a5;
+    }
+    .step-title{
+      font-size: 36px;
+      padding-left: 60px;
+      vertical-align: center;
+    }
+    .step-content {
+      flex: 1;
+    }
+
+    .active .step-number {
+      color: #00aa88;
+    }
+
+    .active .step-title {
+      color: #000;
+      font-weight: bold;
+    }
+
+    .step-description {
+      color: #58595D;
+      padding-left: 60px;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 34px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+
+    }
+
+    .vertical-line {
+      border-left: 2px solid #000;
+      height: 20px;
+      margin-right: 8px;
+      margin-top: 4px;
+    }
+    .text-fav3{
+      font-family: Covered By Your Grace;
+      color: #00938766;
+      font-size: 48px;
+    }
+    .section5-profile{
+      width: 64px;
+      height: 64px;
+      border-radius: 100px;
+      object-fit: contain;
+    }
+    .section5-name{
+      color:#2E2F35;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+
+    }
+    .section5-username{
+      color: #58595D;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+
+    }
+    .section5-flex{
+      /* min-width: 500px;
+      max-width: 600px; */
+      border:solid;
+      border-color: #2E2F35;
+      border-radius: 10px;
+      
+    }
+    .twitter-logo{
+      font-size: 30px;
+    }
+    .section5-carddes{
+      max-width: 300px;
+      color: #58595D;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+
+    }
+    .section6{
+      background-color: #EEECFF;
+      width: 1440;
+      height: 905.984375;
+      top: 8006.92px;
+      left: 2px;
+      padding-top: 96px;
+      padding-right: 75px;
+      padding-bottom: 96px;
+      padding-left: 75px;
+
+    }
+    .btn-login2{
+      width: 232.5625;
+      height: 64;
+      padding-top: 22px;
+      padding-right: 41.56px;
+      padding-bottom: 22px;
+      padding-left: 42px;
+      border-width: 2px;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 1);
+      box-shadow: 3px 3px 0 0 rgba(46, 47, 53, 1);
+    }
+    .text-section6{
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 57px;
+      line-height: 66px;
+      letter-spacing: -2px;
+      vertical-align: middle;
+
+    }
+    .text2-section6{
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      color: #58595D;
+
+    }
+    .section6-number{
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 34px;
+      line-height: 30px;
+      letter-spacing: -1px;
+      vertical-align: middle;
+      color:#2E2F35;
+    }
+    .section6-numbertext{
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      color: #58595D;
+    }
+    .section7{
+      background-color: #FF6D2C;
+      color: #FFFFFF;
+      width: 1440;
+      height: 737;
+      top: 9512.91px;
+      left: 2px;
+      padding-right: 75px;
+      padding-left: 75px;
+
+    }
+    @media (max-width:800px) {
+      .section7{
+        padding: 0%;
+      }
+    }
+    .section7-text1{
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 81px;
+      line-height: 96px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      color: #FFFFFF;
+    }
+    .section8{
+      background-color: #F3FAFA;
+      width: 1440;
+      height: 737;
+      top: 9512.91px;
+      left: 2px;
+      padding-right: 75px;
+      padding-left: 75px;
+
+    }
+    @media (max-width:800px) {
+      .section8{
+        padding: 5%;
+      }
+    }
+    .section8-color{
+      background-color: #F3FAFA;
+    }
+    .text-section8{
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 68px;
+      line-height: 76px;
+      letter-spacing: -2px;
+      text-align: center;
+      vertical-align: middle;
+      color: #2E2F35;
+    }
+    .rating-clr2{
+      color: #FFFFFF;
+    }
+    .custom-card {
+      width: 20rem;
+      border: none;
+    }
+    
+    .custom-img {
+      width: 100%;
+      height: 200px; 
+      object-fit: cover;
+    }
+    .card-text-custom{
+      font-family: Inter;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 36px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+
+    }
+    .section9{
+      margin-bottom: 0px;
+    }
+    .a-section a{
+      text-decoration: none;
+      display: block;
+    }
+    .text1-section9{
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      color: #58595D;
+    }
+    .text2-section9{
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 0%;
+      vertical-align: middle;
+      color: #2E2F35;
+    }
+    .section9-footer{
+      padding-bottom: 0px;
+      padding-top: 70px;
+    }
+
+

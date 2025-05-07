@@ -1,0 +1,380 @@
+.sectionc-1{
+    padding: 100px 0;
+}
+.text1-sectionc1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1F1F1F;
+}
+.longline{
+    display: block;
+  width: 6%;
+  border-bottom: 4px solid #000; 
+  margin: 20px 0; 
+  height: 1px; 
+  content: "";
+}
+.text2-sectionc1{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1F1F1F;
+}
+.text3-sectionc1{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 165%;
+    letter-spacing: 0%;
+    color: #545454;
+}
+.c-icon{
+    font-size: 30px;
+    padding-right: 20px;
+}
+.sectionc-2{
+    background-color: #F3FAFA;
+}
+.text1-sectionc2{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #2E2F35;
+
+}
+.input-set{
+  border: none;
+  border-bottom:1px solid;
+  border-radius: 0%;
+  border-color: #808080;
+  background-color: #FDF3EA;
+}
+.form-container {
+    background-color: #fff4ed;
+    border-radius: 20px;
+    padding: 40px;
+    max-width: 800px;
+    margin: 10px auto;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+  .form-check-input:checked {
+    background-color: #ff6b2c;
+    border-color: #ff6b2c;
+  }
+  .btn-submit {
+    background-color: #ff6b2c;
+    color: white;
+    width: 380px;
+    height: 60px;
+    border-radius: 0%;
+
+  }
+  @media (max-width:600px) {
+    .btn-submit{
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .btn-submit:hover {
+    background-color: #e65a1f;
+  }
+
+.text1-sectionc3{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.5px;
+    text-align: center;
+
+}
+.text2-sectionc3{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #0F2137;
+}
+
+
+
+
+
+.sectionc-4{
+    background-color: #F3FAFA;
+}
+.text1-sectionc4{
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #1F1F1F;
+}
+.text2-sectionc4{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 165%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    color: #545454;
+}
+@media (max-width:800px) {
+    .text2-sectionc4{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+  .newsletter-form {
+    min-width: 800px; 
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+  }
+  @media (max-width: 576px) {
+    .newsletter-form-inner {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .newsletter-form{
+        display: block;
+        min-width: auto;
+    }
+    .newsletter-form button {
+      width: 100%;
+      border-top: 1px solid #ddd;
+      border-radius: 0 0 8px 8px;
+    }
+  }
+  .f-12{
+    color: #808080;
+    font-size: 17px;
+  }
+  .newsletter-form input {
+    border: none;
+    padding: 15px 20px;
+    flex: 1;
+  }
+  .newsletter-form input::placeholder{
+    font-family: Inter;
+  }
+
+  .newsletter-form input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .newsletter-form button {
+    background-color: #ff6b2c;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+  }
+
+  .newsletter-form button:hover {
+    background-color: #e55a1f;
+  }
+
+  .section9{
+    margin-bottom: 0px;
+  }
+  .text1-section9{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #58595D;
+  }
+  .text2-section9{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    color: #2E2F35;
+  }
+  .section9-footer{
+    padding-bottom: 0px;
+    padding-top: 70px;
+  }
+  .c-logo-size{
+    font-size: 40px;
+    padding: 0px 10px;
+  }
+
+  .faq-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .faq-subtitle {
+    color: #6c757d;
+    margin-top: 0.5rem;
+  }
+  
+  .faq-list {
+    max-width: 700px;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem 0;
+  }
+  
+  .faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .faq-answer {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #4a4a4a;
+    line-height: 1.5;
+  }
+  
+  .icon {
+    color: orange;
+  }
+
+  
+  .faq-section {
+    padding: 60px 20px;
+  }
+
+  .faq-list {
+    max-width: 700px;
+    margin: 40px auto 0;
+  }
+
+  .faq-item {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 16px 0;
+  }
+
+  .faq-question {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #333;
+  }
+
+  .faq-answer {
+    margin-top: 8px;
+    
+    font-size: 0.95rem;
+    color: #4a4a4a;
+    line-height: 1.5;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+
+  .faq-item.active .faq-answer {
+    height: auto;
+    opacity: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+  }
+
+  .icon {
+    color: #FF6D2C;
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 768px) {
+    .faq-title {
+      font-size: 1.5rem;
+    }
+
+    .faq-subtitle {
+      font-size: 0.85rem;
+    }
+
+    .faq-question {
+      font-size: 0.95rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .faq-title {
+      font-size: 1.2rem;
+    }
+
+    .faq-subtitle {
+      font-size: 0.75rem;
+    }
+
+    .faq-question {
+      font-size: 0.9rem;
+    }
+  }
+
+
+  .upload-container {
+    max-width: 400px;
+    margin: 50px auto;
+  }
+
+  .form-label {
+    color: #6c6c6c;
+    font-weight: 500;
+  }
+
+  .custom-file-upload {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    color: #6c6c6c;
+    cursor: pointer;
+    font-size: 14px;
+  }
+
+  .custom-file-upload:hover {
+    background-color: #f2f2f2;
+  }
+
+  .custom-file-upload i {
+    margin-right: 10px;
+  }
+
+  input[type="file"] {
+    display: none;
+  }
