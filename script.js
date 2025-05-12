@@ -63,6 +63,12 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
   if (!email) {
     showError('email', '*Required');
     isValid = false;
+  } else {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    if (!emailRegex.test(email)) {
+      showError('email', 'Enter a valid email');
+      isValid = false;
+    }
   }
 
   if (!phone) {
@@ -131,3 +137,18 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     document.getElementById("contactForm").reset();
   }
 });
+
+function initMap() {
+  const capsitechLocation = { lat: 26.1755032, lng: 72.9328963 };
+
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 17,
+    center: capsitechLocation,
+  });
+
+  new google.maps.Marker({
+    position: capsitechLocation,
+    map: map,
+    title: "Capsitech",
+  });
+}
